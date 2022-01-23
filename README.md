@@ -8,12 +8,13 @@ First clone this repo
 ```bash
 git clone https://github.com/armandonery/bellotero.io.git
 ```
-Install dependencies
+Then install dependencies
 
 ```bash
 npm install
 ```
-Start the development server
+
+And finally start the development server
 ```bash
 npm start
 ```
