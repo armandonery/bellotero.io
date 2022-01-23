@@ -1,0 +1,118 @@
+.data {
+    margin-top: 155px;
+    margin-left: 45px;
+}
+
+.name {
+    margin-top: -5px;
+    height: 48px;
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000;
+}
+
+.position {
+    width: 195px;
+    height: 0;
+    margin: -48px 63px 0 0;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--greyish);
+}
+
+.comment {
+    width: 775px;
+    height: 190px;
+    margin: 0 0 0 215px;
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: var(--black);
+}
+
+.rectangle {
+    width: 466px;
+    height: 56px;
+    /* margin: 120px 458px 80px 172px; */
+    padding: 8px 4px;
+    background-color: var(--cobalt-blue);
+
+    font-family: 'Roboto-Black', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: 0.77px;
+    padding: 8px 4px;
+    color: #fff;
+  }
+
+  .container {
+    width: 1140px;
+    height: 254px;
+    margin: 80px 166px 28px 0px;
+    padding: 32px;
+    background-color: #fff;  
+  }
+
+.message-flex {
+    display: flex;
+}
+
+.quarter {
+    width: 120px;
+    height: 32px;
+    margin: 0 1px 0 0;
+    padding: 16px 44px;
+    background-color: var(--cobalt-blue);
+
+    font-family: 'CormorantGaramond-SemiBoldItalic', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1;
+    letter-spacing: 0.69px;
+    color: #fff;
+}
+
+.arrow-left {
+    width: 56px;
+    height: 32px;
+    /* margin: 0 0 0 1px; */
+    padding: 16px 20px;
+    background-color: var(--cobalt-blue);
+}
+
+.arrow-right {
+    width: 56px;
+    height: 32px;
+    /* margin: 0 0 0 1px; */
+    padding: 16px 20px;
+    background-color: var(--cobalt-blue);
+}
+
+.arrow-icons {
+    /* width: 19px;
+    height: 20px; */
+    width: 18px;
+    height: 20px;
+    color: #fff;
+
+}
+
+.buttons {
+    margin-left: 990px;
+    margin-top: -45px;
+}

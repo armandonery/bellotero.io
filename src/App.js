@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Menu from './components/menu'
+import Testimonial from './components/testimonial/testimonial'
+import Configurator from './components/configurator/configurator'
+import Empty from './components/empty/story_about'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+        <Routes>
+          <Route path="/page-1" element={<Testimonial />} />
+          <Route path="/page-2" element={<Configurator />} />
+          <Route path="/#" element={<Empty />} />
+        </Routes>
+        <div className="App">
+          <Menu />
+        </div>
+    </BrowserRouter>
+    
   );
 }
 
